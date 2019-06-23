@@ -14,3 +14,6 @@
 
 # To run phpMyAdmin
  ### In brower run `localhost:8080/phpmyadmin`
+
+ # If JDK or JRE enviornment is not installed
+  ### To fix this error, uninstall any previous JDK you have installed or anything else and download `JAVA SE Development Kit 8` from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and make sure you have added it in your `PATH` variable.
