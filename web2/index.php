@@ -13,26 +13,26 @@
 <body>
   <div class="container">
     <h1>Server and File Info</h1>
-    <?php if($server): ?>
+    <?php if ($server): ?>
+    
       <ul class="list-group">
-        <?php foreach ($server as $key=>$value): ?>
+        <?php foreach ($server as $key => $value): ?>
         <li class="list-group-item">
           <b><?php echo $key; ?>:</b> <?php echo $value; ?>
         </li>
       </ul>
-      <?php endforeach;?> 
-    <?php endif; ?>
-
+      <?php endforeach;?>
+    <?php endif;?>
     <h1>Client Info</h1>
-    <?php if($client): ?>
+    <?php if ($client): ?>
       <ul class="list-group">
-        <?php foreach ($server as $key=>$value): ?>
+        <?php foreach ($server as $key => $value): ?>
         <li class="list-group-item">
           <b><?php echo $key; ?>:</b> <?php echo $value; ?>
         </li>
       </ul>
-      <?php endforeach;?> 
-    <?php endif; ?>
+      <?php endforeach;?>
+    <?php endif;?>
 
   </div>
 </body>
