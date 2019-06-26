@@ -55,8 +55,8 @@ $filters = array(
         'filter' => FILTER_VALIDATE_INT,
         "options" => array(
             'min_range' => 1,
-            'max_range' => 100
-        )
+            'max_range' => 100,
+        ),
     ),
     'email' => FILTER_VALIDATE_EMAIL,
 );
